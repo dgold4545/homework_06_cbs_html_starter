@@ -108,3 +108,41 @@ body {
   background-color: var(--main-color);
   cursor: pointer;
 }
+
+/* services */
+.services-title {
+  color: var(--main-color);
+  font-size: var(--subtitle-size);
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.services-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 960px;
+  gap: 26px;
+  margin: auto;
+  padding-bottom: 64px;
+}
+
+.services-item {
+  width: calc(90% / 3 - 24px);
+}
+
+.services-link {
+  display: flex;
+  align-items: center;
+  height: 83px;
+  text-decoration: none;
+  color: var(--secondary-color-text);
+  background-color: var(--secondary-color-bg);
+  padding: 18px 20px 18px 46px;
+
+  border-radius: 32px;
+  font-size: var(--small-text);
+  line-height: 1.24;
+}
