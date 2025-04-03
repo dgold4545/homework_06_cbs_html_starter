@@ -1,0 +1,70 @@
+:root {
+  --main-color: #14931f;
+  --secondary-color: #ffffff;
+  --secondary-color-bg: #dfdbf5;
+  --secondary-color-text: #646f75;
+  --title-size: 64px;
+  --subtitle-size: 48px;
+  --regular-text: 24px;
+  --small-text: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Corben', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 1100px;
+  margin: 0px auto;
+  border: 1px solid grey;
+  padding: 16px;
+}
+/* header */
+.company-logo {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 28px;
+  position: relative;
+  padding-left: 66px;
+}
+
+.circle {
+  position: absolute;
+}
+
+.size-l {
+  background-color: var(--main-color);
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  top: 8px;
+  left: 18px;
+  z-index: 1;
+}
+
+.size-m {
+  background-color: var(--secondary-color);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  top: 12px;
+  left: 26px;
+  z-index: 2;
+}
+
+.size-s {
+  background-color: var(--main-color);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 20px;
+  left: 38px;
+  z-index: 3;
+}
